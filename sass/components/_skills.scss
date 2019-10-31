@@ -16,7 +16,12 @@
 
   @include respond(phone) {
     width: 70%;
-    padding: 5rem;
+    padding: 1rem 5rem;
+  }
+
+  @include respond(small-phone) {
+    width: 90%;
+    padding: 1rem 5rem;
   }
 
   &__icon {
@@ -32,6 +37,10 @@
     // -webkit-background-clip: text;
     // background-clip: text; // have this so it would stop throwing error because of the -webkit
     // color: transparent;
+
+    @include respond(phone) {
+      font-size: 3rem;
+    }
   }
 
   &:hover {

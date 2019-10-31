@@ -39,7 +39,7 @@ $(document).ready(function() {
 
 // for navigation bar when it's mobile size
 $(document).ready(function() {
-  $('.nav__menu-icon').on('click', function() {
+  $('.nav__menuicon').on('click', function() {
     $('.nav__menu ul').toggleClass('showing');
   });
 });

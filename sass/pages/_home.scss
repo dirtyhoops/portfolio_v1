@@ -7,11 +7,15 @@
   @include respond(tab-portrait) {
     padding: 40rem 10rem;
   }
+
+  @include respond(phone) {
+    padding: 20rem 5rem;
+  }
 }
 
 .section-skills {
   height: 90vh;
-  padding: 25rem 0;
+  padding: 15rem 0;
   background-image: linear-gradient(
       to right bottom,
       rgba($color-black-1, 0.5),
@@ -33,7 +37,7 @@
   }
 
   @include respond(phone) {
-    padding: 15rem 0;
+    padding: 8rem 0;
     height: 100%;
   }
 }

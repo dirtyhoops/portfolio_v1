@@ -30,6 +30,12 @@ nav.black {
     cursor: pointer;
     color: #fff;
     display: none;
+
+    @include respond(phone) {
+      display: block;
+      padding: 1.2rem 3rem;
+      font-size: 2rem;
+    }
   }
 
   &__menu {
@@ -41,6 +47,11 @@ nav.black {
       padding: 0;
       text-align: center;
       margin: 0;
+
+      // TRYING TO FIGURE THIS SHIT OUT
+      .showing {
+        max-height: 35em;
+      }
 
       li {
         display: inline-block;
