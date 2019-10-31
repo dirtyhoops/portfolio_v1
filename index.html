@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- for font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+      crossorigin="anonymous"
+    />
+
+    <!-- jquery and js -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="/jquery/navshrink.js"></script>
+
+    <link rel="stylesheet" href="css/icon-font.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+
+    <title>Daryll Osis's Portfolio</title>
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="nav__menuicon">
+        <i class="fa fa-bars fa-2x"></i>
+      </div>
+      <div class="nav__logo" id="link5">
+        DO
+      </div>
+      <div class="nav__menu">
+        <ul>
+          <li><a class="navlinks" id="link-home">Home</a></li>
+          <li><a class="navlinks" id="link-about">About</a></li>
+          <li><a class="navlinks" id="link-skills">Skills</a></li>
+
+          <li>
+            <a class="navlinks" id="link-projects">Projects</a>
+          </li>
+          <li><a class="navlinks" id="link-contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <header class="header" id="header">
+      <div class="header__text-box">
+        <h1 class="heading-primary">
+          <span class="heading-primary--main"
+            >Hello, I'm
+            <span class="heading-primary--main-span">Daryll Osis</span></span
+          >
+          <span class="heading-primary--sub">I'm a Full Stack Developer</span>
+        </h1>
+
+        <a href="#" id="link-projects-2" class="btn btn--white btn--animated"
+          >Check my projects</a
+        >
+      </div>
+    </header>
+
+    <main>
+      <section class="section-about" id="section-about">
+        <div class="u-center-text">
+          <div class="profile-image">
+            <img class="circle-image" src="img/profilepic.jpg" alt="" />
+          </div>
+
+          <p class="paragraph u-margin-top-big">
+            Hello, I'm Daryll Osis, and my passion is to turn ideas into reality
+            through code. My Bachelor’s in Computer Science combined with my
+            completion of an immersive full stack program have solidified and
+            strengthened my abilities as a developer. Attending and finishing a
+            14 week full stack development bootcamp provided me with a
+            understanding of a wide variety of technologies, and in return, the
+            ability to easily find similarities in new technologies, making me
+            the kind of individuals who can easily pick up new languages and
+            learn it in short amount of time. I’m looking to obtain a
+            professional position to utilize my technical expertise and problem
+            solving skills.
+          </p>
+        </div>
+      </section>
+      <section class="section-skills" id="section-skills">
+        <div class="u-center-text u-margin-bottom-huge">
+          <h2 class="heading-secondary-white">
+            Technical Skills
+          </h2>
+        </div>
+        <div class="row">
+          <div class="col-1-of-4">
+            <div class="u-padding-horizontal-small">
+              <div class="skill-box">
+                <!-- <i class="skill-box__icon icon-basic-world"></i> -->
+                <i class="skill-box__icon fas fa-code"></i>
+
+                <h3 class="heading-tertiary u-margin-bottom-small">
+                  Back-end
+                </h3>
+                <div class="skill-box__skills">
+                  <ul>
+                    <li>JavaScript</li>
+                    <li>Java</li>
+                    <li>Node.js</li>
+                    <li>Python</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-1-of-4">
+            <div class="u-padding-horizontal-small">
+              <div class="skill-box">
+                <!-- <i class="skill-box__icon icon-basic-world"></i> -->
+                <i class="skill-box__icon fas fa-code"></i>
+                <h3 class="heading-tertiary u-margin-bottom-small">
+                  Front-end
+                </h3>
+                <div class="skill-box__skills">
+                  <ul>
+                    <li>HTML</li>
+                    <li>CSS and SASS</li>
+                    <li>React</li>
+                    <li>Angular</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-1-of-4">
+            <div class="u-padding-horizontal-small">
+              <div class="skill-box">
+                <!-- <i class="skill-box__icon icon-basic-world"></i> -->
+                <i class="skill-box__icon fas fa-database"></i>
+                <h3 class="heading-tertiary u-margin-bottom-small">
+                  Database
+                </h3>
+                <div class="skill-box__skills">
+                  <ul>
+                    <li>MongoDB</li>
+                    <li>MySQL</li>
+                    <li>ORM</li>
+                    <li>Hibernate</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-1-of-4">
+            <div class="u-padding-horizontal-small">
+              <div class="skill-box">
+                <!-- <i class="skill-box__icon icon-basic-keyboard"></i> -->
+                <i class="skill-box__icon far fa-keyboard"></i>
+                <h3 class="heading-tertiary u-margin-bottom-small">
+                  Other
+                </h3>
+                <div class="skill-box__skills">
+                  <ul>
+                    <li>RESTful API</li>
+                    <li>Responsive web design</li>
+                    <li>Write clean code</li>
+                    <li>ADD ONE MORE SKILL</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-projects" id="section-projects">
+        <div
+          class="u-center-text u-margin-bottom-huge section-projects__animation--header"
+        >
+          <h2 class="heading-secondary">
+            Projects
+          </h2>
+        </div>
+        <div class="row">
+          <div class="col-1-of-3">
+            <div class="project project__animation--1">
+              <div class="project__side project__side--front">
+                <div class="project__picture project__picture--1">
+                  &nbsp;
+                </div>
+              </div>
+              <div class="project__side project__side--back">
+                <div class="project__header">
+                  <h3 class="project__header--main">
+                    Hyped Goods
+                  </h3>
+                  <p class="project__header--sub">
+                    MEAN Stack
+                  </p>
+                </div>
+                <a href="#popup-hypedgoods" class="project__button"
+                  >learn more</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-1-of-3">
+            <div class="project project__animation--2">
+              <div class="project__side project__side--front">
+                <div class="project__side project__side--front">
+                  <div class="project__picture project__picture--2">
+                    &nbsp;
+                  </div>
+                </div>
+              </div>
+              <div class="project__side project__side--back">
+                <div class="project__header">
+                  <h3 class="project__header--main">
+                    The Movie DB
+                  </h3>
+                  <p class="project__header--sub">
+                    Node.js + React
+                  </p>
+                </div>
+                <a href="#popup-moviedb" class="project__button">learn more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-1-of-3">
+            <div class="project project__animation--3">
+              <div class="project__side project__side--front">
+                <div class="project__side project__side--front">
+                  <div class="project__picture project__picture--3">
+                    &nbsp;
+                  </div>
+                </div>
+              </div>
+              <div class="project__side project__side--back">
+                <div class="project__header">
+                  <h3 class="project__header--main">
+                    Vape3one
+                  </h3>
+                  <p class="project__header--sub">
+                    Java + Spring + Hibernate
+                  </p>
+                </div>
+                <a href="#popup-vape3one" class="project__button">learn more</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-1-of-3">
+            <div class="project project__animation--4">
+              <div class="project__side project__side--front">
+                <div class="project__side project__side--front">
+                  <div class="project__picture project__picture--4">
+                    &nbsp;
+                  </div>
+                </div>
+              </div>
+              <div class="project__side project__side--back">
+                <div class="project__header">
+                  <h3 class="project__header--main">
+                    Hoop Finder
+                  </h3>
+                  <p class="project__header--sub">
+                    Python + Django + MySQL
+                  </p>
+                </div>
+                <a href="#popup-hoopfinder" class="project__button"
+                  >learn more</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-contactme" id="section-contactme">
+        <div class="contactme">
+          <form class="contactme__form">
+            <span class="contactme__form--header">Get in Touch</span>
+            <div class="contactme__form__wrapper half-width">
+              <input
+                class="contactme__input"
+                type="text"
+                name="name"
+                placeholder="Name"
+              />
+              <span class="contactme__input--focus"></span>
+            </div>
+            <div class="contactme__form__wrapper half-width">
+              <input
+                class="contactme__input"
+                type="text"
+                name="email"
+                placeholder="Email Address"
+              />
+              <span class="contactme__input--focus"></span>
+            </div>
+            <div class="contactme__form__wrapper">
+              <textarea
+                class="contactme__input"
+                name="message"
+                placeholder="Write your message"
+              ></textarea>
+              <span class="contactme__input--focus"></span>
+            </div>
+
+            <div class="contactme__form__button">
+              <button class="contactme__form__button--btn">
+                Send
+              </button>
+            </div>
+          </form>
+        </div>
+        <!-- <div class="contactme__social">
+          <div class="row">
+            <div class="contactme__social__container u-center-text">
+              <div class="col-1-of-3">
+                <i class="fab fa-linkedin-in"></i>
+              </div>
+              <div class="col-1-of-3"><i class="fab fa-github"></i></div>
+              <div class="col-1-of-3"><i class="fas fa-at"></i></div>
+            </div>
+          </div>
+        </div> -->
+      </section>
+    </main>
+
+    <div class="popup" id="popup-hypedgoods">
+      <div class="popup__content">
+        <div class="popup__top">image</div>
+        <div class="popup__bottom">
+          <div class="popup__bottom__header">
+            <h3 class="popup__heading">HypedGoods</h3>
+            <h4 class="popup__subheading">E-COMMERCE WEBSITE</h4>
+            <div class="popup__bottom__header__descriptioncontainer">
+              <p class="popup__description">
+                A fully functional e-commerce website created to market trendy
+                sneakers in high demand. The webpage design capitalizes on
+                promoting a user-friendly online shopping experience. Some of
+                the administration accessibility features the ability to
+                add/remove sale products, edit products, administer users, and
+                oversee all customer orders.
+              </p>
+            </div>
+          </div>
+          <div class="popup__bottom__buttons">
+            <div class="popup__bottom__buttons--view">
+              <a href="#" class="popup__button">view site</a>
+              <a href="#" class="popup__button">view github</a>
+            </div>
+            <div class="popup__bottom__buttons--close">
+              <a href="#section-projects" class="popup__close">&times;</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="popup" id="popup-moviedb">
+      <div class="popup__content">
+        <div class="popup__top">image</div>
+        <div class="popup__bottom">
+          <div class="popup__bottom__header">
+            <h3 class="popup__heading">The Movie DB</h3>
+            <h4 class="popup__subheading">MOVIE WEB-APP</h4>
+            <div class="popup__bottom__header__descriptioncontainer">
+              <p class="popup__description">
+                A web app that gives users the accessibility to search their
+                favorite films and discover some new movies at the palm of their
+                hands. It provides movie overview, casting information,
+                trailers, images, and movie suggestions.
+              </p>
+            </div>
+          </div>
+          <div class="popup__bottom__buttons">
+            <div class="popup__bottom__buttons--view">
+              <a href="#" class="popup__button">view site</a>
+              <a href="#" class="popup__button">view github</a>
+            </div>
+            <div class="popup__bottom__buttons--close">
+              <a href="#section-projects" class="popup__close">&times;</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="popup" id="popup-vape3one">
+      <div class="popup__content">
+        <div class="popup__top">image</div>
+        <div class="popup__bottom">
+          <div class="popup__bottom__header">
+            <h3 class="popup__heading">Vape3one</h3>
+            <h4 class="popup__subheading">E-COMMERCE WEBSITE</h4>
+            <div class="popup__bottom__header__descriptioncontainer">
+              <p class="popup__description">
+                An e-commerce website for vaping necessities. It’s designed to
+                help the business create more traffic and generate more sales
+                online.
+              </p>
+            </div>
+          </div>
+          <div class="popup__bottom__buttons">
+            <div class="popup__bottom__buttons--view">
+              <a href="#" class="popup__button">view site</a>
+              <a href="#" class="popup__button">view github</a>
+            </div>
+            <div class="popup__bottom__buttons--close">
+              <a href="#section-projects" class="popup__close">&times;</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="popup" id="popup-hoopfinder">
+      <div class="popup__content">
+        <div class="popup__top">image</div>
+        <div class="popup__bottom">
+          <div class="popup__bottom__header">
+            <h3 class="popup__heading">HoopFinder</h3>
+            <h4 class="popup__subheading">BASKETBALL</h4>
+            <div class="popup__bottom__header__descriptioncontainer">
+              <p class="popup__description">
+                A website that allows users to easily discover nearby locations
+                to access basketball courts. Users are also able to leave a
+                customer review, which is viewable by any party on the website.
+              </p>
+            </div>
+          </div>
+          <div class="popup__bottom__buttons">
+            <div class="popup__bottom__buttons--view">
+              <a href="#" class="popup__button">view site</a>
+              <a href="#" class="popup__button">view github</a>
+            </div>
+            <div class="popup__bottom__buttons--close">
+              <a href="#section-projects" class="popup__close">&times;</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+.header {
+  height: 111.5vh;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($color-black, 0.5),
+      rgba($color-black-1, 0.5)
+    ),
+    url(../img/hdnature.jpg);
+
+  // background-image: url(../img/hdnature.jpg);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100vh, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 100vh, 0 100%);
+
+  @include respond(tab-portrait) {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100vh, 0 94%);
+    clip-path: polygon(0 0, 100% 0, 100% 100vh, 0 94%);
+  }
+
+  &__text-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+    @include respond(tab-portrait) {
+      width: 90%;
+    }
+  }
+}

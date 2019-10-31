@@ -1,0 +1,116 @@
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-10rem);
+  }
+
+  80% {
+    transform: translateX(1rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(10rem);
+  }
+
+  80% {
+    transform: translateX(-1rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+// same as moveInBottom but the starting point is lower. translateY(8rem)
+@keyframes moveInBottomLong {
+  0% {
+    opacity: 0;
+    transform: translateY(8rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveInTopLong {
+  0% {
+    opacity: 0;
+    transform: translateY(-8rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+// This is for after a hover out of the project card
+@keyframes moveInBottomLong1 {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(-10rem);
+  }
+}
+
+@keyframes moveInTopLong1 {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(10rem);
+  }
+}
+
+// animation for project cards
+@keyframes moveInBottomProjectCards {
+  0% {
+    opacity: 0;
+    transform: translateY(32rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(30rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}

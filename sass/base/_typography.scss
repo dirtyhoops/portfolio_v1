@@ -1,0 +1,75 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  /* font-size: 16px; */
+  line-height: 1.7;
+  color: $color-grey-dark;
+}
+
+.heading-primary {
+  color: $color-white;
+  backface-visibility: hidden;
+  line-height: 1.3;
+  margin-bottom: 2rem;
+
+  &--main {
+    display: block;
+    font-size: 4.4rem;
+    font-weight: 500;
+    letter-spacing: 0.2rem;
+    animation-name: moveInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+
+    &-span {
+      color: $color-red-light;
+    }
+  }
+
+  &--sub {
+    display: block;
+    font-size: 3.4rem;
+    font-weight: 500;
+    letter-spacing: 0.2rem;
+    animation: moveInRight 1s ease-out;
+  }
+}
+
+.heading-secondary {
+  font-size: 3rem;
+}
+
+.heading-secondary-white {
+  font-size: 3rem;
+  color: white;
+}
+
+.heading-tertiary {
+  font-size: $default-font-size;
+  color: $color-black;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.paragraph {
+  font-size: $default-font-size;
+}
+
+// Typography for the popup for the projects
+.popup {
+  &__heading {
+    color: $color-black;
+    font-size: 2.5rem;
+    line-height: 1.2;
+  }
+
+  &__subheading {
+    color: $color-grey;
+    font-size: 1.4rem;
+  }
+
+  &__description {
+    color: $color-black;
+    font-size: 1.25rem;
+  }
+}
