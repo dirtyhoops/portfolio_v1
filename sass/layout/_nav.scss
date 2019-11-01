@@ -9,6 +9,7 @@ nav.black {
   z-index: 99999;
 
   &__logo {
+    position: fixed;
     float: left;
     margin: 3px 20px;
     color: $color-white;

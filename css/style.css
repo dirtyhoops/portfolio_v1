@@ -653,6 +653,7 @@ nav.black {
   transition: 1s;
   z-index: 99999; }
   .nav__logo {
+    position: fixed;
     float: left;
     margin: 3px 20px;
     color: #fff;
