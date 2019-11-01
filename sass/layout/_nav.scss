@@ -2,10 +2,6 @@ nav.black {
   background: #000;
 }
 
-nav.black ul {
-  background: #000;
-}
-
 .nav {
   position: fixed;
   width: 100%;
@@ -29,17 +25,16 @@ nav.black ul {
 
   &__menuicon {
     width: 100%;
-    background: #000;
     text-align: right;
     box-sizing: border-box;
-    padding: 15px 24px;
+    padding: 1.4rem 3rem;
     cursor: pointer;
     color: #fff;
     display: none;
 
     @include respond(phone) {
       display: block;
-      padding: 1.2rem 3rem;
+
       font-size: 2rem;
     }
   }
@@ -53,7 +48,6 @@ nav.black ul {
 
     ul {
       list-style: none;
-      background: rgba(0, 0, 0, 0);
       overflow: hidden;
       color: #fff;
       padding: 0;
@@ -62,7 +56,6 @@ nav.black ul {
 
       @include respond(phone) {
         max-height: 0px;
-        background: #000;
         transition: all 0.5s;
       }
 
