@@ -9,12 +9,11 @@ nav.black {
   z-index: 99999;
 
   &__logo {
-    position: fixed;
     float: left;
-    margin: 1.6rem 3.6rem;
+    margin: 3px 20px;
     color: $color-white;
     font-weight: bold;
-    font-size: 2.4rem;
+    font-size: 2.8rem;
 
     @include respond(phone) {
       top: 0;
@@ -54,10 +53,10 @@ nav.black {
       padding: 0;
       text-align: center;
       margin: 0;
-      background-color: $color-black;
 
       @include respond(phone) {
         max-height: 0px;
+        background-color: $color-black;
         transition: all 0.5s;
       }
 
