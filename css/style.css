@@ -184,6 +184,9 @@ body {
 
 .u-margin-bottom-small {
   margin-bottom: 2rem; }
+  @media (max-width: 37.5em) {
+    .u-margin-bottom-small {
+      margin-bottom: 0.1rem; } }
 
 .u-margin-bottom-medium {
   margin-bottom: 3rem; }
@@ -553,7 +556,8 @@ body {
     color: #4e4949; }
     @media (max-width: 37.5em) {
       .skill-box__icon {
-        font-size: 3rem; } }
+        font-size: 3rem;
+        margin: 1rem; } }
   .skill-box:hover {
     transform: translateY(-1.5rem) scale(1.03); }
   .skill-box__skills {
@@ -566,6 +570,9 @@ body {
         text-align: center;
         font-size: 1.3rem;
         padding: 1rem; }
+        @media (max-width: 37.5em) {
+          .skill-box__skills ul li {
+            font-size: 1.6rem; } }
         .skill-box__skills ul li:not(:last-child) {
           border-bottom: 1px solid #eee; }
 
