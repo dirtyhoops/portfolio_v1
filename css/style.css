@@ -634,13 +634,14 @@ body {
 nav.black {
   background: #000; }
 
+nav.black ul {
+  background: #000; }
+
 .nav {
   position: fixed;
   width: 100%;
   transition: 1s;
   z-index: 99999; }
-  .nav .black {
-    background: #000; }
   .nav__logo {
     position: fixed;
     float: left;
@@ -648,6 +649,11 @@ nav.black {
     color: #fff;
     font-weight: bold;
     font-size: 2.4rem; }
+    @media (max-width: 37.5em) {
+      .nav__logo {
+        top: 0;
+        margin: 0.2rem 2rem;
+        font-size: 4rem; } }
   .nav__menuicon {
     width: 100%;
     background: #000;
@@ -662,6 +668,9 @@ nav.black {
         display: block;
         padding: 1.2rem 3rem;
         font-size: 2rem; } }
+  @media (max-width: 37.5em) {
+    .nav__menu .showing {
+      max-height: 55vh; } }
   .nav__menu ul {
     list-style: none;
     background: rgba(0, 0, 0, 0);
@@ -670,12 +679,21 @@ nav.black {
     padding: 0;
     text-align: center;
     margin: 0; }
-    .nav__menu ul .showing {
-      max-height: 35em; }
+    @media (max-width: 37.5em) {
+      .nav__menu ul {
+        max-height: 0px;
+        background: #000;
+        transition: all 0.5s; } }
     .nav__menu ul li {
       display: inline-block;
       padding: 1.5rem 2rem;
       cursor: pointer; }
+      @media (max-width: 37.5em) {
+        .nav__menu ul li {
+          box-sizing: border-box;
+          width: 100%;
+          padding-bottom: 45px;
+          text-align: center; } }
       .nav__menu ul li .navlinks {
         text-decoration: none;
         color: #fff;

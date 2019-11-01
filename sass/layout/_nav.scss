@@ -2,15 +2,15 @@ nav.black {
   background: #000;
 }
 
+nav.black ul {
+  background: #000;
+}
+
 .nav {
   position: fixed;
   width: 100%;
   transition: 1s;
   z-index: 99999;
-
-  .black {
-    background: #000;
-  }
 
   &__logo {
     position: fixed;
@@ -19,6 +19,12 @@ nav.black {
     color: $color-white;
     font-weight: bold;
     font-size: 2.4rem;
+
+    @include respond(phone) {
+      top: 0;
+      margin: 0.2rem 2rem;
+      font-size: 4rem;
+    }
   }
 
   &__menuicon {
@@ -39,6 +45,11 @@ nav.black {
   }
 
   &__menu {
+    .showing {
+      @include respond(phone) {
+        max-height: 55vh;
+      }
+    }
     ul {
       list-style: none;
       background: rgba(0, 0, 0, 0);
@@ -48,15 +59,23 @@ nav.black {
       text-align: center;
       margin: 0;
 
-      // TRYING TO FIGURE THIS SHIT OUT
-      .showing {
-        max-height: 35em;
+      @include respond(phone) {
+        max-height: 0px;
+        background: #000;
+        transition: all 0.5s;
       }
 
       li {
         display: inline-block;
         padding: 1.5rem 2rem;
         cursor: pointer;
+
+        @include respond(phone) {
+          box-sizing: border-box;
+          width: 100%;
+          padding-bottom: 45px;
+          text-align: center;
+        }
 
         .navlinks {
           text-decoration: none;
