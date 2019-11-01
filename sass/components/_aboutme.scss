@@ -5,5 +5,9 @@
     width: 20rem;
     border: 0.3rem solid $color-white;
     box-shadow: 0 1.5rem 2rem rgba($color-black, 0.4);
+
+    @include respond(phone) {
+      width: 17rem;
+    }
   }
 }
