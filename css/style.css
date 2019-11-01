@@ -288,6 +288,10 @@ body {
     .contactme {
       width: 90%;
       margin: 0 auto; } }
+  @media (max-width: 37.5em) {
+    .contactme {
+      width: 95%;
+      padding: 5rem 2rem 3em 2em; } }
   .contactme .contactme__form {
     width: 100%; }
     .contactme .contactme__form--header {
@@ -297,7 +301,7 @@ body {
       color: #333333;
       line-height: 1.2;
       text-align: center;
-      padding-bottom: 43px; }
+      padding-bottom: 4.3rem; }
     .contactme .contactme__form .half-width {
       width: calc((100% - 0.5rem) / 2);
       display: inline-block; }
@@ -320,13 +324,13 @@ body {
         color: #333333;
         line-height: 1.2; }
       .contactme .contactme__form__wrapper input.contactme__input {
-        height: 60px;
-        padding: 0 20px 0 25px;
-        font-size: 15px; }
+        height: 6rem;
+        padding: 0 2rem 0 2.5rem;
+        font-size: 1.5rem; }
       .contactme .contactme__form__wrapper textarea.contactme__input {
         min-height: 199px;
-        padding: 25px 20px 15px 25px;
-        font-size: 15px; }
+        padding: 2.5rem 2rem 1.5rem 2.5rem;
+        font-size: 2rem; }
     .contactme .contactme__form__button {
       width: 100%;
       display: -webkit-box;
@@ -348,13 +352,12 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 0 20px;
-        min-width: 100px;
-        height: 50px;
+        padding: 0 2rem;
+        min-width: 10rem;
+        height: 5rem;
         background-color: #ff4b5a;
         border-radius: 2px;
-        font-family: OpenSans-Regular;
-        font-size: 18px;
+        font-size: 1.5rem;
         color: #fff;
         line-height: 1.2;
         -webkit-transition: all 0.4s;
