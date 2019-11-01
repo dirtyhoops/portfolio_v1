@@ -47,9 +47,10 @@ nav.black ul {
   &__menu {
     .showing {
       @include respond(phone) {
-        max-height: 55vh;
+        max-height: 60vh;
       }
     }
+
     ul {
       list-style: none;
       background: rgba(0, 0, 0, 0);
@@ -67,13 +68,13 @@ nav.black ul {
 
       li {
         display: inline-block;
-        padding: 1.5rem 2rem;
+        padding: 1rem 2rem;
         cursor: pointer;
 
         @include respond(phone) {
           box-sizing: border-box;
           width: 100%;
-          padding-bottom: 45px;
+          padding-bottom: 4rem;
           text-align: center;
         }
 

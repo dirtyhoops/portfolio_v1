@@ -670,7 +670,7 @@ nav.black ul {
         font-size: 2rem; } }
   @media (max-width: 37.5em) {
     .nav__menu .showing {
-      max-height: 55vh; } }
+      max-height: 60vh; } }
   .nav__menu ul {
     list-style: none;
     background: rgba(0, 0, 0, 0);
@@ -686,13 +686,13 @@ nav.black ul {
         transition: all 0.5s; } }
     .nav__menu ul li {
       display: inline-block;
-      padding: 1.5rem 2rem;
+      padding: 1rem 2rem;
       cursor: pointer; }
       @media (max-width: 37.5em) {
         .nav__menu ul li {
           box-sizing: border-box;
           width: 100%;
-          padding-bottom: 45px;
+          padding-bottom: 4rem;
           text-align: center; } }
       .nav__menu ul li .navlinks {
         text-decoration: none;
