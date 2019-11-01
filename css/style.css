@@ -671,6 +671,7 @@ nav.black {
     padding: 1.4rem 3rem;
     cursor: pointer;
     color: #fff;
+    background-color: #000;
     display: none; }
     @media (max-width: 37.5em) {
       .nav__menuicon {
@@ -685,7 +686,8 @@ nav.black {
     color: #fff;
     padding: 0;
     text-align: center;
-    margin: 0; }
+    margin: 0;
+    background-color: #000; }
     @media (max-width: 37.5em) {
       .nav__menu ul {
         max-height: 0px;

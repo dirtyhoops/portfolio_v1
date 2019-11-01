@@ -30,6 +30,7 @@ nav.black {
     padding: 1.4rem 3rem;
     cursor: pointer;
     color: #fff;
+    background-color: $color-black;
     display: none;
 
     @include respond(phone) {
@@ -53,6 +54,7 @@ nav.black {
       padding: 0;
       text-align: center;
       margin: 0;
+      background-color: $color-black;
 
       @include respond(phone) {
         max-height: 0px;
