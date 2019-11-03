@@ -278,20 +278,20 @@ body {
   border: 2px solid #f15353; }
 
 .contactme {
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
-  padding: 5rem;
+  padding: 3rem 2rem 2rem 2rem;
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 0.2rem;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); }
   @media (max-width: 56.25em) {
     .contactme {
-      width: 90%;
+      width: 70%;
       margin: 0 auto; } }
   @media (max-width: 37.5em) {
     .contactme {
       width: 95%;
-      padding: 5rem 2rem 3em 2em; } }
+      padding: 5rem 2rem 2em 2em; } }
   .contactme .contactme__form {
     width: 100%; }
     .contactme .contactme__form--header {
@@ -301,7 +301,7 @@ body {
       color: #333333;
       line-height: 1.2;
       text-align: center;
-      padding-bottom: 4.3rem; }
+      margin-bottom: 2.5rem; }
     .contactme .contactme__form .half-width {
       width: calc((100% - 0.5rem) / 2);
       display: inline-block; }
@@ -314,23 +314,31 @@ body {
       background-color: #fff;
       border: 1px solid #dbdbdb;
       border-radius: 2px;
-      margin-bottom: 3rem; }
+      margin-bottom: 1rem; }
       @media (max-width: 37.5em) {
         .contactme .contactme__form__wrapper {
           margin-bottom: 1rem; } }
       .contactme .contactme__form__wrapper .contactme__input {
         display: block;
         width: 100%;
-        color: #333333;
-        line-height: 1.2; }
+        color: #000;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.4rem; }
+        @media (max-width: 37.5em) {
+          .contactme .contactme__form__wrapper .contactme__input {
+            font-size: 1.5rem; } }
       .contactme .contactme__form__wrapper input.contactme__input {
-        height: 6rem;
-        padding: 0 2rem 0 2.5rem;
-        font-size: 1.5rem; }
+        height: 4rem;
+        padding: 0 1rem; }
+        @media (max-width: 37.5em) {
+          .contactme .contactme__form__wrapper input.contactme__input {
+            height: 6rem; } }
       .contactme .contactme__form__wrapper textarea.contactme__input {
-        min-height: 199px;
-        padding: 2.5rem 2rem 1.5rem 2.5rem;
-        font-size: 1.5rem; }
+        height: 20rem;
+        padding: 1.5rem 1rem; }
+        @media (max-width: 37.5em) {
+          .contactme .contactme__form__wrapper textarea.contactme__input {
+            height: 25rem; } }
     .contactme .contactme__form__button {
       width: 100%;
       display: -webkit-box;
@@ -340,7 +348,7 @@ body {
       display: flex;
       flex-wrap: wrap;
       justify-content: flex-end;
-      margin-top: -1rem; }
+      margin-top: 1rem; }
       @media (max-width: 37.5em) {
         .contactme .contactme__form__button {
           margin-top: 1rem; } }
@@ -352,18 +360,20 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 0 2rem;
-        min-width: 10rem;
-        height: 5rem;
-        background-color: #ff4b5a;
-        border-radius: 2px;
+        width: 10rem;
+        height: 3.5rem;
+        background-color: #f15353;
+        border: 2px solid #f15353;
         font-size: 1.5rem;
         color: #fff;
-        line-height: 1.2;
         -webkit-transition: all 0.4s;
         -o-transition: all 0.4s;
         -moz-transition: all 0.4s;
         transition: all 0.4s; }
+        @media (max-width: 37.5em) {
+          .contactme .contactme__form__button--btn {
+            height: 5rem;
+            font-size: 1.6rem; } }
 
 .contactme__social {
   margin-top: 5rem; }
@@ -721,20 +731,20 @@ nav.black {
         transition: width 0.3s; }
 
 .section-about {
-  height: 100vh;
+  height: 100rem;
   background-color: whitesmoke;
-  padding: 30rem 20rem;
-  margin-top: -16vh; }
+  padding: 20rem;
+  margin-top: -19rem; }
   @media (max-width: 56.25em) {
     .section-about {
-      padding: 40rem 10rem; } }
+      padding: 20rem 10rem 115rem 10rem; } }
   @media (max-width: 37.5em) {
     .section-about {
-      padding: 20rem 5rem; } }
+      padding: 20rem 5rem 90rem 5rem; } }
 
 .section-skills {
-  height: 90vh;
-  padding: 15rem 0;
+  height: 80rem;
+  padding: 8rem 3rem;
   background-image: linear-gradient(to right bottom, rgba(71, 57, 57, 0.5), rgba(71, 57, 57, 0.5)), url(../img/background-1.jpg);
   background-size: cover;
   margin-top: -10rem;
@@ -743,28 +753,30 @@ nav.black {
     transform: skewY(5deg); }
   @media (max-width: 56.25em) {
     .section-skills {
-      padding: 15rem 0;
-      height: 97vh; } }
+      padding: 10rem 0 15rem 0;
+      height: 100%; } }
   @media (max-width: 37.5em) {
     .section-skills {
-      padding: 8rem 0;
-      height: 100%; } }
+      padding: 8rem 0; } }
 
 .section-projects {
   background-color: whitesmoke;
-  padding: 20rem 20rem 45rem 20rem;
-  margin-top: -8vh; }
+  padding: 13rem 10rem 20rem 10rem;
+  margin-top: -6rem; }
   @media (max-width: 56.25em) {
     .section-projects {
-      padding: 20rem 1rem 45rem 1rem; } }
+      padding: 13rem 1rem 45rem 1rem; } }
+  @media (max-width: 37.5em) {
+    .section-projects {
+      padding: 11rem 0 20rem 0; } }
   .section-projects__animation--header {
     animation: moveInRight 1s ease; }
 
 .section-contactme {
   height: 100vh;
   width: 100%;
-  margin-top: -27rem;
-  padding: 25rem;
+  margin-top: -12rem;
+  padding: 20rem;
   background-color: whitesmoke;
   background-image: linear-gradient(to right bottom, rgba(71, 57, 57, 0.6), rgba(71, 57, 57, 0.6)), url(../img/background-2.jpg);
   background-size: cover;
@@ -773,6 +785,10 @@ nav.black {
   clip-path: polygon(0 11.3vh, 100% 0, 100% 100%, 0 100%); }
   @media (max-width: 56.25em) {
     .section-contactme {
+      height: 100vh;
       -webkit-clip-path: polygon(0 7vh, 100% 0, 100% 100%, 0 100%);
       clip-path: polygon(0 7vh, 100% 0, 100% 100%, 0 100%);
       padding: 25rem 3rem; } }
+  @media (max-width: 37.5em) {
+    .section-contactme {
+      padding: 18rem 3rem; } }
