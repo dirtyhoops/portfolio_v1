@@ -392,6 +392,7 @@ body {
   left: 0;
   background-color: rgba(0, 0, 0, 0.8);
   transition: all 0.3s;
+  z-index: 10;
   opacity: 0;
   visibility: hidden; }
   @supports (-webkit-backdrop-filter: blur(10px)) or (backdrop-filter: blur(10px)) {
@@ -517,14 +518,14 @@ body {
   .project__header {
     animation: moveInBottomLong1 0.4s ease-in-out; }
     .project__header--main {
-      font-size: 2.1rem;
+      font-size: 1.6rem;
       margin-top: 7rem;
       margin-bottom: -0.3rem; }
       @media (max-width: 37.5em) {
         .project__header--main {
           margin-top: 13rem; } }
     .project__header--sub {
-      font-size: 1.6rem;
+      font-size: 1.2rem;
       margin-bottom: 5rem;
       color: #f15353; }
   .project__button {
@@ -533,10 +534,10 @@ body {
       text-transform: uppercase;
       color: #f15353;
       text-decoration: none;
-      padding: 0.7rem 3rem;
+      padding: 0.5rem 3rem;
       display: inline-block;
       transition: all 0.5s;
-      font-size: 1.6rem;
+      font-size: 1.2rem;
       border: 2px solid #f15353; }
     .project__button:hover {
       color: #fff;
@@ -547,28 +548,30 @@ body {
       text-transform: uppercase;
       color: #fff;
       text-decoration: none;
-      padding: 0.8rem 3rem;
+      padding: 1rem 3rem;
       font-size: 1.6rem;
       border: 2px solid #fff; }
-    @media (max-width: 56.25em) {
+    @media (max-width: 37.5em) {
       .project__mobile-detail {
         display: block;
-        height: 8rem;
+        height: 12rem;
         width: 100%;
         text-align: center;
         position: absolute;
-        padding-top: 2rem;
+        padding-top: 4rem;
+        z-index: 1;
         bottom: 0;
         left: 0;
         background-color: rgba(0, 0, 0, 0.8); } }
-  .project:hover .project__side--front {
-    opacity: 0; }
-  .project:hover .project__side--back {
-    opacity: 1; }
-    .project:hover .project__side--back .project__header {
-      animation: moveInTopLong 0.4s ease-in-out; }
-    .project:hover .project__side--back .project__button {
-      animation: moveInBottomLong 0.4s ease-in-out; }
+  @media not all and (hover: none) {
+    .project:hover .project__side--front {
+      opacity: 0; }
+    .project:hover .project__side--back {
+      opacity: 1; }
+      .project:hover .project__side--back .project__header {
+        animation: moveInTopLong 0.4s ease-in-out; }
+      .project:hover .project__side--back .project__button {
+        animation: moveInBottomLong 0.4s ease-in-out; } }
   .project__animation--1 {
     animation: moveInBottomProjectCards 0.6s ease-out; }
   .project__animation--2 {

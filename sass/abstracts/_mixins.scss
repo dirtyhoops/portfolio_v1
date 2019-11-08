@@ -64,3 +64,10 @@ ORDER: Base + typography > general layout + grid > page layout > components
     } // 1800px
   }
 }
+
+// it only hovers when it's supported
+@mixin hover-supported {
+  @media not all and (hover: none) {
+    @content;
+  }
+}
