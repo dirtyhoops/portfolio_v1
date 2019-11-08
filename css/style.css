@@ -541,6 +541,26 @@ body {
     .project__button:hover {
       color: #fff;
       background-color: #f15353; }
+  .project__mobile-detail {
+    display: none; }
+    .project__mobile-detail__button:link, .project__mobile-detail__button:visited {
+      text-transform: uppercase;
+      color: #fff;
+      text-decoration: none;
+      padding: 0.8rem 3rem;
+      font-size: 1.6rem;
+      border: 2px solid #fff; }
+    @media (max-width: 56.25em) {
+      .project__mobile-detail {
+        display: block;
+        height: 8rem;
+        width: 100%;
+        text-align: center;
+        position: absolute;
+        padding-top: 2rem;
+        bottom: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.8); } }
   .project:hover .project__side--front {
     opacity: 0; }
   .project:hover .project__side--back {
