@@ -394,13 +394,18 @@ body {
   transition: all 0.3s;
   opacity: 0;
   visibility: hidden; }
+  @supports (-webkit-backdrop-filter: blur(10px)) or (backdrop-filter: blur(10px)) {
+    .popup {
+      -webkit-backdrop-filter: blur(10px);
+      backdrop-filter: blur(10px);
+      background-color: rgba(0, 0, 0, 0.3); } }
   .popup__content {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 40%;
-    height: 67rem;
+    width: 45%;
+    height: 70rem;
     background-color: #fff;
     box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
     border-radius: 3px;
@@ -408,10 +413,18 @@ body {
     opacity: 0;
     transform: translate(-50%, -50%) scale(0.25);
     transition: all 0.3s 0.1s; }
+    @media (max-width: 56.25em) {
+      .popup__content {
+        width: 90%;
+        height: 75vh; } }
   .popup__top {
     width: 100%;
-    height: 40rem;
+    height: 43rem;
     background-color: #272709; }
+    .popup__top__image {
+      height: 100%;
+      width: 100%;
+      background-size: cover; }
   .popup__bottom {
     width: 100%;
     height: 27rem;
@@ -488,16 +501,17 @@ body {
       text-align: center; }
   .project__picture {
     background-size: cover;
-    height: 30rem; }
+    height: 100%;
+    background-position: center; }
     @media (max-width: 37.5em) {
       .project__picture {
         height: 40rem; } }
     .project__picture--1 {
-      background-image: url("https://sneakernews.com/wp-content/uploads/2017/04/adodas-yeezy-boost-350-cream-white-confirmed-app-store-list-1.jpg"); }
+      background-image: url(../img/hypedgoods-1.png); }
     .project__picture--2 {
-      background-image: url(../img/moviedb.png); }
+      background-image: url(../img/moviedb-1.png); }
     .project__picture--3 {
-      background-image: url("https://ecigarettereviewed.com/wp-content/uploads/2017/10/DirectVapor-Best-Online-Vape-Store.jpg"); }
+      background-image: url(../img/vape3one-1.png); }
     .project__picture--4 {
       background-image: url("https://milehighsports.com/wp-content/uploads/2018/10/EE42733B-1466-4C2C-BD73-8FBDAE62EDFA.jpeg"); }
   .project__header {
