@@ -405,8 +405,8 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 45%;
-    height: 52rem;
+    width: 60rem;
+    height: 60rem;
     background-color: #fff;
     box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
     border-radius: 3px;
@@ -414,12 +414,9 @@ body {
     opacity: 0;
     transform: translate(-50%, -50%) scale(0.25);
     transition: all 0.3s 0.1s; }
-    @media (max-width: 56.25em) {
-      .popup__content {
-        width: 90%; } }
   .popup__top {
     width: 100%;
-    height: 27rem;
+    height: 40rem;
     background-color: #272709; }
     .popup__top__image {
       height: 100%;
@@ -427,7 +424,7 @@ body {
       background-size: cover; }
   .popup__bottom {
     width: 100%;
-    height: 25rem;
+    height: 20rem;
     padding: 1.5rem; }
     .popup__bottom__header {
       width: 100%; }
@@ -511,8 +508,10 @@ body {
     .project__picture--2 {
       background-image: url(../img/moviedb-1.png); }
     .project__picture--3 {
-      background-image: url(../img/vape3one-1.png); }
+      background-image: url(../img/firehouse-1.png); }
     .project__picture--4 {
+      background-image: url(../img/vape3one-1.png); }
+    .project__picture--5 {
       background-image: url("https://milehighsports.com/wp-content/uploads/2018/10/EE42733B-1466-4C2C-BD73-8FBDAE62EDFA.jpeg"); }
   .project__header {
     animation: moveInBottomLong1 0.4s ease-in-out; }
@@ -579,6 +578,8 @@ body {
     animation: moveInBottomProjectCards 0.96s ease-out; }
   .project__animation--4 {
     animation: moveInBottomProjectCards 1.14s ease-out; }
+  .project__animation--5 {
+    animation: moveInBottomProjectCards 1.32s ease-out; }
 
 .skill-box {
   width: 100%;

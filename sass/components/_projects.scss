@@ -54,10 +54,14 @@
     }
 
     &--3 {
-      background-image: url(../img/vape3one-1.png); // for Vape3one
+      background-image: url(../img/firehouse-1.png); // for Fire House
     }
 
     &--4 {
+      background-image: url(../img/vape3one-1.png); // for Vape3one
+    }
+
+    &--5 {
       background-image: url('https://milehighsports.com/wp-content/uploads/2018/10/EE42733B-1466-4C2C-BD73-8FBDAE62EDFA.jpeg'); // for Hoop Finder
     }
   }
@@ -180,6 +184,10 @@
 
     &--4 {
       animation: moveInBottomProjectCards 1.14s ease-out;
+    }
+
+    &--5 {
+      animation: moveInBottomProjectCards 1.32s ease-out;
     }
   }
 }
