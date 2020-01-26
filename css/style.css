@@ -414,6 +414,10 @@ body {
     opacity: 0;
     transform: translate(-50%, -50%) scale(0.25);
     transition: all 0.3s 0.1s; }
+    @media (max-width: 37.5em) {
+      .popup__content {
+        width: 95%;
+        height: 70vh; } }
   .popup__top {
     width: 100%;
     height: 40rem;

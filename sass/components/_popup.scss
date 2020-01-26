@@ -31,14 +31,10 @@
     transform: translate(-50%, -50%) scale(0.25);
     transition: all 0.3s 0.1s; // 0.2s is the delay before the animation
 
-    // @include respond(tab-landscape) {
-    //   width: 50rem;
-    // }
-
-    // @include respond(tab-portrait) {
-    //   width: 90%;
-    //   // height: 75vh;
-    // }
+    @include respond(phone) {
+      width: 95%;
+      height: 70vh;
+    }
   }
 
   &__top {
